@@ -6,7 +6,7 @@ const NavBar = () => {
     return (
         <div className="Fondo-BarraDeNavegacion">
             <div className="BarraDeNavegacion">
-                <div className="Logo">Logo</div>
+                <Link className="Logo" to="/" >Logo</Link>
                 <nav>
                     <Link className="BarraDeNavegacion_Items" to="/home">Home</Link>
                     <Link className="BarraDeNavegacion_Items" to="/login">Login</Link>
