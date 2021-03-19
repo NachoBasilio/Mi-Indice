@@ -1,7 +1,21 @@
 import React from 'react';
+import { withRouter } from 'react-router';
+import {auth} from "../firebase"
 import "./styles/Home.css"
 
-const Home = () => {
+const Home = (props) => {
+    const [user, setUser] = React.useState(null)
+
+
+    React.useEffect(() =>{
+        if(auth.currentUser){
+            console.log("existe un usuario")
+            setUser(auth.currentUser);
+        }else{
+            console.log('No existe un usuario')
+            props.history.push('/login')
+        }
+    },[])
     return (
         <div>   
             <form className="Formulario">
@@ -25,4 +39,4 @@ const Home = () => {
     );
 }
 
-export default Home;
+export default withRouter(Home);

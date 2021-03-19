@@ -1,10 +1,11 @@
 import React from 'react';
 import NavBar from '../component/NavBar';
 
-const Layout = ({children}) => {
+const Layout = ({children, firebaseUser }) => {
+    
     return (
         <div>
-            <NavBar/>
+            <NavBar firebaseUser={firebaseUser}/>
             {children}
         </div>
     );
