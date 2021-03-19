@@ -13,8 +13,6 @@ const Login = (props) => {
         if(registerMode === false){
             setRegisterMode(true)
         }else{setRegisterMode(false)}
-
-        
     }
     
     const procesarDatos = (e) => {
@@ -60,9 +58,8 @@ const Login = (props) => {
                 uid: response.user.uid
             })
             await db.collection(response.user.uid).add({
-                matematicas: {
-                    sumar: 1,
-                    restar: 2
+                materias: {
+                    
                 }
             })
             setEmail("")
