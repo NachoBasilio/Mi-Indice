@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-size: 15px;
+    
+}
+
+.Lista_materias{
+    min-height: 400px;
+    background-color: #FFF9FF;
+    margin: 15px auto;
+    width: 90%;
+    border-radius: 20px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto-fill, 40px);
+}
+
+/* Derecha */
+.contenedor_numero_entradas{
+    border-right: 1px solid #464646;
+    grid-column: 3/4;
+    grid-row: 1/none;
+    
+}
+.contenedor_titulo_entradas{
+    border-bottom: 1px solid #464646;;
+    grid-column: 3/4;
+    grid-row: 1;
+    text-align: -webkit-center;
+}
+.Titulo_entradas{
+    margin: 0;
+    height: 40px;
+}
+
+
+/* Izquierda */
+.contenedor_materias{
+    border-right: 1px solid #464646;;
+    grid-column: 1/3;
+    grid-row: 1/none;  
+}
+.contenedor_titulo_materias{
+    border-bottom: 1px solid #464646;;
+    grid-column:1/3;
+    grid-row: 1/2;
+}
+.titulo_materias{
+    margin: 0 auto;
+    height: 40px;
+}
+
+/* Formulario */
+
+.Formulario{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+.Formulario_input{
+    padding: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+    border: 1px solid #464646;
+    border-radius: 5px;
+    width: 150px;
+}
+.Formulario_boton{
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid #464646;
+    background-color: #FFF9FF;
+}
+a{display: block;}
+

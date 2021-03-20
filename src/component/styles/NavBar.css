@@ -1,0 +1,31 @@
+.Fondo-BarraDeNavegacion{
+    background-color: #FCF6FF;
+    height: 100px;
+}
+.BarraDeNavegacion{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav{
+   
+   margin: 0 auto;
+}
+.Logo{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+.BarraDeNavegacion_Items{
+    margin-right: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    
+    
+    border: none;
+}
+button{background-color: inherit;}

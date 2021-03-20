@@ -1,0 +1,30 @@
+.formulario_login{
+    width:90%;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.formulario_login input{
+    width:100%;
+    margin: 5px auto;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.Login_register{
+    width:100%;
+    height:30px;
+    margin-top:15px;
+    font-size: 20px;
+    background-color: #FFF9FF;
+}
+.Crear_logearte{
+    width:100%;
+    height:30px;
+    margin-top: 5px;
+    font-size: 20px;
+}
