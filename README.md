@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+![Imagen de Encabezado](https://media.licdn.com/dms/image/D4D16AQHOHQ6Q0LtjrA/profile-displaybackgroundimage-shrink_350_1400/0/1681584517093?e=1700697600&v=beta&t=5OC8BaV3EJMqkrAziSsd40Xi_PlLUKuTeo5dS5hwljE)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# miindice
 
-## Available Scripts
+## Descripción del Proyecto
+"miindice" es una aplicación web desarrollada utilizando React y Firebase que te permite almacenar y gestionar índices para tus apuntes. Con esta herramienta, podrás organizar tus recursos de manera eficiente y encontrarlos fácilmente cuando los necesites.
 
-In the project directory, you can run:
+## Instrucciones de Uso
+Para utilizar "miindice," sigue estos pasos:
+1. Clona este repositorio.
+2. Instala las dependencias utilizando `npm install`.
+3. Configura Firebase con tus credenciales.
+4. Inicia la aplicación usando `npm start`.
 
-### `npm start`
+## Ejemplos de Uso
+Puedes utilizar "miindice" para guardar y buscar índices relacionados con tus apuntes, lo que te ayudará a acceder rápidamente a la información que necesitas.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Licencia
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Autor
+- **Ignacio Nicolás Basilio Buracco**
+  - Email: [ignacio.n.basilio.b@gmail.com](mailto:ignacio.n.basilio.b@gmail.com)
+  - LinkedIn: [Perfil de LinkedIn](https://www.linkedin.com/in/ignacio-nicolas-basilio-buracco/)
 
-### `npm test`
+## Estado del Proyecto
+Este proyecto se considera "terminado/abandonado." No se realizarán actualizaciones activas, pero puedes utilizarlo y personalizarlo según tus necesidades.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
